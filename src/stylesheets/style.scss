@@ -1,0 +1,42 @@
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ h2 {
+   margin-left: 10px;
+ }
+
+ #images {
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   text-align: center;
+ }
+
+ #images .target-image {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+ }
+
+ #images .naruto-image {
+   position: absolute;
+   z-index: 2;
+ }
+
+ #contents {
+   position: relative;
+ }
+ 
+ #contents .imageUrl {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   z-index: 3;
+ }
+
+ #contents .imageUrl .text{
+   width: 400px;
+ }
